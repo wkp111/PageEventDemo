@@ -13,7 +13,7 @@ maven { url "https://dl.bintray.com/wkp/maven" }
 ```
 Note：可能存在Jcenter还在审核阶段，这时会集成失败！注意SDK版本targetSdkVersion >= 28.
 ## 使用详解
-> 原理讲解
+### 原理讲解
 1.<a href="https://github.com/wkp111/PageEventDemo/blob/master/pageevent/src/main/java/com/wkp/pageevent/inter/PageEvent.java">PageEvent.java</a></br>
 事件发射器，实现该接口，具备事件发射能力。</br>
 2.<a href="https://github.com/wkp111/PageEventDemo/blob/master/pageevent/src/main/java/com/wkp/pageevent/inter/PageEventListener.java">PageEventListener.java</a></br>
@@ -24,10 +24,10 @@ Note：可能存在Jcenter还在审核阶段，这时会集成失败！注意SDK
 事件总线处理中心，主要管理事件监听器的注册及注销，事件发射器的事件发射及粘性事件的缓存。</br>
 5.<a href="https://github.com/wkp111/PageEventDemo/tree/master/pageevent/src/main/java/com/wkp/pageevent/base">base Activity & Fragment</a></br>
 当前主要扩展了Activity及Fragment的基类，方便页面之间事件通信的实现。</br>
-Note：事件通信支持其他扩展，不限于Activity及Fragment，可自行探索！
-> 代码示例
+#### Note：事件通信支持其他扩展，不限于Activity及Fragment，可自行探索！
+### 代码示例
 简易示例可参考<a href="https://github.com/wkp111/PageEventDemo/tree/master/app/src/main/java/com/wkp/pageeventdemo">Demo</a>
-Note：还有其他复杂使用场景请自行探索！ 
+#### Note：还有其他复杂使用场景请自行探索！ 
 ## 寄语
 欢迎大家使用，感觉好用请给个Star鼓励一下，谢谢！<br/>
 大家如果有更好的意见或建议以及好的灵感，请邮箱作者，谢谢！<br/>
