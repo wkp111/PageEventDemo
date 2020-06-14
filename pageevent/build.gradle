@@ -10,7 +10,7 @@ android {
         minSdkVersion 15
         targetSdkVersion 28
         versionCode 1
-        versionName "1.0.1"
+        versionName "1.0.2"
     }
 
     buildTypes {
@@ -24,14 +24,14 @@ android {
 
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
-    compileOnly 'com.android.support:appcompat-v7:28.0.0'
+    compileOnly 'androidx.appcompat:appcompat:1.1.0'
 }
 
 publish {
     userOrg = 'wkp'
     groupId = 'com.wkp'
     artifactId = 'PageEvent'
-    publishVersion = '1.0.1'
+    publishVersion = '1.0.2'
     desc = 'a library to send or receive events at Activitys and Fragments'
     website = 'https://github.com/wkp111/PageEventDemo'
 }

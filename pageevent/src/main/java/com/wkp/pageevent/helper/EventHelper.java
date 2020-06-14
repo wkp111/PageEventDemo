@@ -1,9 +1,6 @@
 package com.wkp.pageevent.helper;
 
 import android.os.Bundle;
-import android.support.annotation.MainThread;
-import android.support.annotation.NonNull;
-import android.support.annotation.Nullable;
 import com.wkp.pageevent.annotations.EventType;
 import com.wkp.pageevent.info.Event;
 import com.wkp.pageevent.inter.PageEvent;
@@ -17,6 +14,9 @@ import java.util.Iterator;
 import java.util.List;
 import java.util.Map;
 import java.util.Set;
+import androidx.annotation.MainThread;
+import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
 
 /**
  * Created by wkp111 on 2020/5/6.

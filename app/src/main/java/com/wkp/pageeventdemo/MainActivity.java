@@ -2,7 +2,6 @@ package com.wkp.pageeventdemo;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.support.annotation.NonNull;
 import android.view.View;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -10,6 +9,8 @@ import android.widget.Toast;
 import com.wkp.pageevent.base.EventAppCompatActivity;
 import com.wkp.pageevent.helper.EventHelper;
 import com.wkp.pageevent.info.Event;
+
+import androidx.annotation.NonNull;
 
 public class MainActivity extends EventAppCompatActivity {
 
@@ -41,7 +42,7 @@ public class MainActivity extends EventAppCompatActivity {
     }
 
     @Override
-    protected boolean initPageEvent() {
+    public boolean initPageEvent() {
         addPageEvent(SecondActivity.class);
         return true;
     }

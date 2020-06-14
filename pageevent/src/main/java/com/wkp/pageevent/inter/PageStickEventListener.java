@@ -1,7 +1,7 @@
 package com.wkp.pageevent.inter;
 
-import android.support.annotation.NonNull;
 import com.wkp.pageevent.info.Event;
+import androidx.annotation.NonNull;
 
 /**
  * Created by wkp111 on 2020/5/7.
