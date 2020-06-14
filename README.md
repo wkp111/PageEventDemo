@@ -3,9 +3,9 @@
 ## Gradle集成
 ```groovy
 dependencies{
-      compile 'com.wkp:PageEvent:1.0.1'
-      //Android Studio3.0+可用以下方式
-      //implementation 'com.wkp:PageEvent:1.0.1'
+      implementation 'com.wkp:PageEvent:1.0.2'
+      // 依赖androidx库
+      implementation 'androidx.appcompat:appcompat:1.1.0'
 }
 
 //如不愿意等待，请加上我的maven仓库地址
@@ -36,6 +36,8 @@ QQ邮箱：1535514884@qq.com<br/>
 Gmail邮箱：wkp15889686524@gmail.com<br/>
 
 ## 版本更新
+* v1.0.2<br/>
+切换适配androidx
 * v1.0.1<br/>
 新创建简易事件总线库
 ## License
